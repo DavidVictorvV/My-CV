@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import "./App.css";
+import UnityWrapper from "./components/UnityWrapper";
 
 const App = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -110,7 +111,9 @@ const App = () => {
   return (
     <div className="horizontal-scroll-container" ref={containerRef}>
       <section className="page">test 1</section>
-      <section className="page">test 2</section>
+      <section className="page">
+        <UnityWrapper />
+      </section>
       <section className="page">test 3</section>
       <section className="page">test 4</section>
     </div>

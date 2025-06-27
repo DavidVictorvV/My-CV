@@ -23,14 +23,6 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 4rem;
-}
-
-.page:nth-child(odd) {
-  background-color: #ffffff;
-  color: #000;
-}
-
-.page:nth-child(even) {
   background-color: #000;
   color: #ffffff;
 }
